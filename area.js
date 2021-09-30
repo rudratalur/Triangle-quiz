@@ -10,7 +10,7 @@ function productOfLength(a,b) {
 function calculateLength() {
     const inputProduct = productOfLength(Number(lengthOfSides[0].value), Number(lengthOfSides[0].value));
     const area = ((1/2)*(Number(lengthOfSides[0].value)*(Number(lengthOfSides[1].value))))
-    outputEl.innerText = "The area of Triangle is " + area;
+    outputEl.innerText = "The area of Triangle is " + area + "cm²";
     
 }
 
